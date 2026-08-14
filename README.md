@@ -1,4 +1,4 @@
-# Bank Support Assistant — Prompt-Injection Attack & Defense Benchmark
+# Bank Support Assistant - Prompt-Injection Attack & Defense Benchmark
 
 This project implements a small LLM-based banking support assistant, attacks it
 with a structured prompt-injection benchmark, hardens it with three independent
