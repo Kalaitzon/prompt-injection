@@ -1,0 +1,21 @@
+# =============================================================================
+# Bank Support Assistant - Prompt-Injection Benchmark - Python dependencies
+# =============================================================================
+# Python 3.10 or newer is recommended.
+#
+# No third-party package is required.
+#
+# The default offline mode (BANK_PROVIDER=replay) and the entire evaluation
+# flow -corpus generation, baseline/defended runs, ablation, error analysis,
+# dashboard, judge (heuristic fallback) and the offline cross-model run- use
+# ONLY the Python standard library. You can run all steps (1)-(8) of the README
+# without any installation.
+#
+# The following are needed ONLY if you switch from replay to a real model,
+# and are imported only when you use them.
+#
+# For BANK_PROVIDER=anthropic (hosted model + live LLM judge):
+anthropic>=0.39.0
+# For the local side of the cross-model study (cross_model.py --models ... ollama).
+# Requires a separately installed and running Ollama server (https://ollama.com).
+ollama>=0.3.0
